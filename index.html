@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <!-- Registation form with validation -->
+    <form action="#" id="form">
+        <h1>STUDENT REGISTATION</h1>
+
+        <div class="ovrall">
+            <div class="inputgroups">
+                <label for="">Name</label>
+                <input type="text" name="Name" id="Name" placeholder="Enter Name">
+                <div class="errormsg"></div>
+            </div>
+            <div class="inputgroups">
+                <label for="">Department</label>
+                <input type="text" name="Department" id="Department" placeholder="Enter Department ">
+                <div class="errormsg"></div>
+            </div>
+        </div>
+
+        <div class="ovrall">
+            <div class="inputgroups">
+                <label for="">Email</label>
+                <input type="text" name="Email" id="Email" placeholder="Enter Email">
+                <div class="errormsg"></div>
+            </div>
+            <div class="inputgroups">
+                <label for="">Username</label>
+                <input type="text" name="Username" id="Username" placeholder="Enter Username">
+                <div class="errormsg"></div>
+            </div>
+        </div>
+
+        <div class="ovrall">
+            <div class="inputgroups">
+                <label for="">Address</label>
+                <input type="text" name="Address" id="Address" placeholder="Enter Address">
+                <div class="errormsg"></div>
+            </div>
+            <div class="inputgroups">
+                <label for="">Password</label>
+                <input type="password" name="Password" id="Password"  placeholder="Enter Password">
+                <div class="errormsg"></div>
+            </div>
+        </div>
+
+        <div class="ovrall">
+            <div class="inputgroups">
+                <label for="">Student ID</label>
+                <input type="number" name="Student" id="Student" placeholder="Enter Student ID">
+                <div class="errormsg"></div>
+            </div>
+            <div class="inputgroups">
+                <label for="">Confirm Password</label>
+                <input type="password" name="Confirm" id="Confirm" placeholder="Enter Confirm Password">
+                <div class="errormsg"></div>
+            </div>
+        </div>
+        <div class="inputgrou">
+            <input type="checkbox">
+            <label for="">I declare that the above information is true and correct</label>
+        </div>
+
+        <div class="btn">
+            <button type="submit" class="button">Registor</button>
+        </div>
+    </form>
+    <!-- Details to above the form -->
+    <form action="" id="details">
+        <h3>STUDENT DETAILS</h3>
+        <p>
+            <label for="">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <span id="sname"></span><br>
+            <label for="">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <span id="semail"></span><br>
+            <label for="">Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+            <span id="saddress"></span><br>
+            <label for="">Student ID&nbsp;&nbsp;&nbsp;:</label>
+            <span id="sid"></span><br>
+            <label for="">Department&nbsp;  :</label>
+            <span id="sdep"></span>
+        </p>
+
+    </form>
+
+</body>
+
+</html>
